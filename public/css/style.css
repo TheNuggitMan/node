@@ -1,6 +1,7 @@
 body {
   background: #333;
   color: #fff;
+  text-align: center;
 }
 
 a {
@@ -9,4 +10,19 @@ a {
   padding: 3px;
   border-radius: 2px;
   margin: 5px;
+  width: 5em;
+}
+
+h1, p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
